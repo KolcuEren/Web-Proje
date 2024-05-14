@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hakkında</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Özel stiller */
+        .login-link,
+        .signup-link {
+            color: #ffcc00; /* Butonların rengi */
+        }
+        body {
+            background-color: #f8f9fa; /* Arka plan rengi */
+        }
+        .cv-container {
+            background-color: #ffffff; /* Özgeçmiş kutusu arka plan rengi */
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        h2 {
+            color: #000000; /* Başlık rengi */
+        }
+        
+        .personal-info {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .personal-info li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="hakkimda.html">Ana Sayfa</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="hakkimda.html">Hakkımda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="iletisim.html">İletişim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ilgialanlarim.html">İlgi Alanlarım</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ozgecmis.html">Özgeçmiş</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sehrim.html">Şehrim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mirasimiz.html">Mirasımız</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link signup-link" href="kaydol.php">Kaydol</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link login-link" href="girisyap.php">Giriş Yap</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="cv-container">
+            <h2 class="text-center">Özgeçmiş</h2>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="section-title">Kişisel Bilgiler</h3>
+                    <ul class="personal-info">
+                        <li><strong>Ad:</strong> Eren Kolcu</li>
+                        <li><strong>Doğum Tarihi:</strong> 16 Aralık 2005</li>
+                        <li><strong>Telefon:</strong> 554 197 41 07</li>
+                        <li><strong>E-posta:</strong> erenkolcu20054@gmail.com</li>
+                        <li><strong>Adres:</strong> Tekeler Mahallesi Adapazarı / Sakarya</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="section-title">Eğitim</h3>
+                    <article>
+                        <h5>Anaokulu</h5>
+                        <p>Cengiz Topel İlköğretim Okulu, 2010-2011</p>
+    
+                        <h5>İlkokul</h5>
+                        <p>Atatürk İlkOkulu, 2011-2015</p>
+    
+                        <h5>Ortaokul</h5>
+                        <p>Ahmet Akkoç OrtaOkulu, 2015-2019</p>
+    
+                        <h5>Lise</h5>
+                        <p>Sakarya Anadolu Lisesi, 2019-2023</p>
+    
+                        <h5>Üniversite</h5>
+                        <p>Sakarya Üniversitesi, Bilgisayar Mühendisliği, 2023-2027</p>
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="section-title">Yetenekler</h3>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer mt-auto py-3 bg-dark text-white">
+        <div class="container text-center">
+            <span class="text-muted">© 2024 Eren Kolcu - Tüm hakları saklıdır.</span>
+        </div>
+    </footer>
+    <!-- Bootstrap JS ve jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
