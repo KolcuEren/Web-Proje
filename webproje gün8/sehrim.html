@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hakkında</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Özel stiller */
+        .login-link,
+        .signup-link {
+            color: #ffcc00; /* Butonların rengi */
+        }
+        .carousel-item img {
+            margin: auto;
+        }
+        h2 a{
+            color: black;
+        }
+        h1 a{
+            color: black;
+        }
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="hakkimda.php">Ana Sayfa</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="hakkimda.php">Hakkımda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="iletisim.php">İletişim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ilgialanlarim.html">İlgi Alanlarım</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ozgecmis.html">Özgeçmiş</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sehrim.html">Şehrim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mirasimiz.html">Mirasımız</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link signup-link" href="kaydol.php">Kaydol</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link login-link" href="girisyap.php">Giriş Yap</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <div class="container">
+        <div id="orhan_cami" class="row">
+            <!-- Fotoğraf -->
+            <div class="col-md-16">
+                <div>
+                    <h1 style="font-weight: bold; text-align: center;"><a href="https://tr.wikipedia.org/wiki/Sakarya">Sakarya</a></h1>
+                    <p>
+                        Sakarya, Türkiye'nin en kalabalık yirmi ikinci ilidir. İl ismini topraklarından geçen Sakarya Nehri'nden 
+                        almıştır. Sakarya ilinin merkezi Adapazarı'dır. Adapazarı 2021 yılında Danimarka'da aldığı ödül ile bisiklet 
+                        şehri ünvanını kazanmıştır.</p>
+
+                    <p>2023 yılı sonu TÜİK verilerine göre il nüfusu 1.098.115'tir. 16 ilçe ve belediye, bu belediyelerde toplam 668 
+                        mahalle bulunmaktadır.</p>
+
+                    <p>Marmara Bölgesi'nin Çatalca-Kocaeli Bölümü'nde yer alır.</p>
+
+                    <p>Sakarya'nın kuzeyinde Karadeniz, batısında Kocaeli, Bursa, doğusunda Düzce ve güneyinde de Bolu ile 
+                        Bilecik bulunmaktadır. Sakarya Nehri, Sakarya'nın Karasu ilçesinde Karadeniz'e dökülür.</p>
+
+                    <p>Sakarya ekonomisinde tarımın önemli bir yeri vardır. Hendek, Karasu ve Kocaali ilçelerinde 
+                        fındık yetiştiriciliği mevcuttur.[3] Ayrıca mısır tarımı da yapılmaktadır. Sakarya'da sanayi il 
+                        merkezi Adapazarı yakınlarında yakınlarında gelişmeye başlamıştır. Son yıllarda kurulan sanayi kuruluşları 
+                        bu sanayileşmeyi daha da artırmıştır. Sakarya, bir milyona yaklaşan toplam nüfusuyla İstanbul, Bursa, Kocaeli
+                         ve Balıkesir'in ardından Marmara Bölgesi'nin en büyük beşinci ilidir.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <!-- Slider -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="#acarlarlongozu">
+                    <img class="d-block w-100" src="acarlarlongozu.jpg" alt="First slide" style="width: 800px; height: 600px;">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="#sapanca">
+                    <img class="d-block w-100" src="teleferik.jpg" alt="Second slide" style="width: 800px; height: 600px;">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="#taraklı">
+                    <img class="d-block w-100" src="tarakli.jpg" alt="Third slide" style="width: 800px; height: 600px;">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="#beskopru">
+                    <img class="d-block w-100" src="beskopru.jpg" alt="Fourth slide" style="width: 800px; height: 600px;">
+                </a>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <br>
+    <div class="container">
+        <div id="orhan_cami" class="row">
+            <!-- Fotoğraf -->
+            <div class="col-md-10">
+                <img src="orhancamii.jpg" alt="Orhan Cami" style="width: 200px; height: 200px; float: left; margin-right: 15px;">
+                <div>
+                    <h2 style="font-weight: bold;"><a href="https://tr.wikipedia.org/wiki/Orhan_Cami_(Adapazar%C4%B1)">Orhan Cami</a></h2>
+                    <p>
+                        Adapazarı merkezde bulunan Orhan Cami Adapazarı'nın Osmanlı döneminde feth edilmesinden sonra Konuralp Bey tarafından 
+                        Orhan Gazi adına yapılmıştır. Kesme taştan yapılan cami kubbesiz, tek minareli ve dikdörtgen planlıdır. 
+                        Sultan II. Abdülhamit döneminde bütünüyle yenilenmiştir. Hemen yanı başında bulunan uzun çarşı ile birlikte insanların alışveriş
+                        yapabilecekleri, çay içip simit yiyebilecekleri mekanlarıyla bu cami günlük hayatın telaşı içersinde kısa bir mola için güzel bir mekandır.
+                        Orhan Cami'ni yanında bulunan  Uzunçarşı ise yaklaşık 100 dükkândan oluşur ve Adapazarı'nın Osmanlı döneminden kalan en eski ve en köklü
+                        çarşılarının başında gelir. Uzunçarşı'daki eski esnafın çoğu Bulgaristan, Bosna, Arnavutluk, Romanya muhacirleridir.
+                        İlk dönemlerinde ise, Ermeni ve Rumlar çarşının ilk kurucularıdır. Kentin ana ticaret merkezi konumundadır. Sakarya halkının 
+                        alışveriş hayatında önemli bir yeri bulunmaktadır. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div id="kentpark" class="row">
+            <!-- Fotoğraf -->
+            <div class="col-md-10">
+                <img src="kentpark.jpg" alt="Kentpark" style="width: 200px; height: 200px; float: left; margin-right: 15px;">
+                <div>
+                    <h2 style="font-weight: bold;"><a href="https://www.kulturportali.gov.tr/turkiye/sakarya/gezilecekyer/kent-park">Kentpark</a></h2>
+                    <p>
+                        Sakarya Kent Park kent merkezinde, 160 bin m² alanın enkazdan yeşile dönüştürülmesiyle oluşturulmuştur. 
+                        Eski Zirai Donatım Kurumu Fabrikası arazisine inşa edilen ve yaklaşık 4.500 metre karelik yürüyüş alanına sahip,
+                         Kent parktaki doğal ortam ve ağaçlar korunarak tüm yüzey çimlendirilmiştir. Parkta 14.000 m² 
+                         gölet bulunmaktadır. Kent park, yanına kurulduğu Çark Deresi sayesinde her mevsim yeşildir. Parkın orta yerine 
+                         inşa edilen gölet ve üzerinde yer alan adacıklara ulaşmak için 2 köprü inşa edilmiştir. Adacıklardaki ağaç 
+                         gölgeleriyle serin ve huzurlu bir ortamın sunulduğu parkta spor yapmak için de faklı bölümler de bulunmaktadır.</p>
+
+                        <p>Kent Park’ta faaliyette olan 2 büfe ve 1 kıl çadır mevcuttur. Kıl çadırın içerisi sedirlerle şekillendirilmiş 
+                        olup çayı, kahvesi, enfes kumpiri, gözlemesi ve bardakta tarhanasıyla doğal güzellikler içeresinde kır keyfini 
+                        yaşatmaktadır. Parkta ayrıca tenis kortu ve kapalı yüzme havuzu da bulunmaktadır. Konser organizasyonları başta 
+                        olmak üzere birçok etkinliğe  ev sahipliği yapmaktadır.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div id="acarlarlongozu" class="row">
+            <!-- Fotoğraf -->
+            <div class="col-md-10">
+                <img src="acarlarlongozu2.jpg" alt="Acarlar Longozu" style="width: 200px; height: 200px; float: left; margin-right: 15px;">
+                <div>
+                    <h2 style="font-weight: bold;"><a href="https://tr.wikipedia.org/wiki/Acarlar_Longozu">Acarlar Longozu</a></h2>
+                    <p>
+                        
+                        Koruma bölgesi içinde bulunan Acarlar Longozu (su basar ormanı), son yıllarda sadece Sakarya'nın değil, 
+                        Türkiye'nin gezilip görülmesi gereken turistik noktalarından biri haline gelmiştir. Kaynarca-Karasu sınırlarının
+                         kesiştiği noktada bulunan Acarlar Longozu, nilüfer ve göl laleleriyle, endemik bitki örtüsüyle, başta dişbudak 
+                         olmak üzere diğer ağaç türleriyle, kuş ve balık çeşitleriyle, hepsinden önemlisi cennetten bir köşe görünümüyle
+                          dikkat çekmektedir. Longozun yüzölçümü 1.562 hektar olup, derinliği 1,5 metreye kadar çıkmaktadır. Yazın 
+                          suları çekilen longozun toprakları köylüler tarafından tarım arazisi olarak kullanılmaktadır. Longozun çevresi
+                           bütünüyle dişbudak ormanlarıyla çevrilidir ve bu ağaçlar yer yer gölün bataklık kesimlerine sokulmaktadır. 
+                           Buralarda sülün, çulluk ve yaban ördeği gibi hayvanlar yaşamakta ve tatlı su balığı avcılığı yapılmaktadır. 
+                           Longozdan çıkan balık türleri; yayın, kızıl kanat, sazan, turna, oklama ve bunların dışında birçok balık 
+                           çeşidi bulunmaktadır. Longozun Karasu kısmında yürüyüş yolu, restoran, sandal, deniz bisikleti, piknik ve 
+                           park alanı gibi düzenlemeler yapılarak turizme kazandırılmıştır.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div id="taraklı" class="row">
+            <!-- Fotoğraf -->
+            <div class="col-md-10">
+                <img src="tarakli.jpg" alt="Taraklı" style="width: 200px; height: 200px; float: left; margin-right: 15px;">
+                <div>
+                    <h2 style="font-weight: bold;"><a href="https://tr.wikipedia.org/wiki/Tarakl%C4%B1">Taraklı</a></h2>
+                    <p>
+                        
+                        Taraklı Türkiye’nin Marmara Bölgesinde eski İstanbul – Ankara karayolu ve tarihi İpekyolu güzergâhında konumlanmıştır. 
+                        Adını şimşir tarak yapımından almış olup, ses ve çevre kirliliğinden uzak konumuyla İtalya merkezli Cittaslow (Sakin Şehir) 
+                        ağına dâhil olan sayılı ilçelerimizden birisidir.</p>
+
+                        <P>Taraklı hakkında en teferruatlı bilgiyi, Evliya Çelebi (1611-1688) ünlü Seyahatnâmesinde vermektedir. 
+                        Evliya Çelebi, Taraklı’nın yedi mahalleden oluştuğunu tespit ettikten sonra mimarî yapılanması hakkında ayrıca şu bilgilere 
+                        yer vermektedir: “Çarşı içindeki camii (Yunus Paşa Camii) çok güzeldir. Bir hamamı, beş hanı, altı çocuk mektebi ve 200 dükkânı 
+                        vardır. Hepsi kaşık ve tarak yapımıyla uğraştıklarından, şehre Taraklu derler. Dağlar safi şimşir ağacıyla kaplı olduğundan halkı 
+                        bunları işleyip, Arap ve Aceme gönderirler. Suyu ve havası çok güzeldir. Bütün dağları, ormanlarla kaplı av yeridir. Deresi içinden 
+                        aktıktan sonra diğer bir nehir vasıtasıyla Sakarya nehrine kavuşur”
+                        Taraklı birçok tarihi değere sahiptir. Yerel yönetim tarihi yapının korunması ve geliştirilmesine büyük önem vermektedir. 
+                        94 adet tescilli sivil mimarlık örneği bina ve 8 adet doğal kültür varlığı bulunan Taraklı’da 1992 yılından itibaren Koruma Amaçlı 
+                        İmar Planı kapsamında çalışmalar yürütülmekte ve tarihi dokunun korunmasına özen gösterilmektedir. Sakarya’nın en uzak ve dağlık 
+                        bölgesinde bulunan Taraklı, Osmanlı ahşap mimarisinin en güzel örneklerini barındırmaktadır. Mimar Sinan tarafından yaptırılan 
+                        493 yıllık Yunus Paşa Camisi bunlardan bir tanesidir. Cami ilginç mimari özelliği ile dikkat çekmektedir. Mimar Sinan yapıya taş 
+                        bloklar yerleştirirken taşın ortalarını oyup demir çubuk yerleştirdikten sonra üzerine harç yerine eritilmiş kurşun döktürmüştür. 
+                        Yanında bulunan hamamdan döşenen tesisatla alttan ısınma özelliğine de sahiptir.
+                        Yusufbey mahallesinde bulunan yaklaşık beş asırlık çınar ağacı Kültür ve Turizm Bakanlığınca doğal anıt olarak tescillenmiştir.</p>
+
+                        <p>Taraklı-Geyve Karayolu üzerinde bulunan Hacıyakup Paşalar köyündeki Bizans döneminden kalma kil hamamı kaplıcaları hastalıklarına 
+                        şifa arayanlar tarafından tercih edilmektedir.</p>
+
+                        <p>Karagöl Yaylası Taraklı'nın 21 km kuzeydoğusunda Samanlı Dağları'nın uzantısı olan dağlar üzerinde yer alır. 
+                        Deniz seviyesinden yüksekliği 1200 metre dir. Etrafı çam, kayın, köknar ve meşe ağaçları ile kaplı olan Karagöl Yaylası, 
+                        567 hektar genişliğindeki alanıyla, bol oksijenli havası ve soğuk içme sularıyla doğal bir tedavi merkezidir. İlkbaharda karların 
+                        erimesiyle sularla kaplanan yayla, nisan ayının ikinci yarısında, sular tamamen çekildikten sonra doğa harikası bir görünüme 
+                        bürünmektedir. Tamamen ahşaptan yapılmış yayla evlerinde ziyaretçiler konaklayabilmektedirler. Her yıl yurt içinden binlerce 
+                        insanımız burada kamp kurup konaklamaktadır. 8 km’lik yürüyüş rotasının başlangıç noktası olan Karagöl yaylasında (1200 r.k.) çam, 
+                        kayın, meşe ve köknar ağaçları bol miktarda bulunmaktadır. Yaylanın üstünde bulunan kanallar ilkbaharda karların erimesiyle suyla
+                         dolmaktadır. Yayla üzerinde birçok küçük yürüyüş rotaları vardır. Yaylada her hafta cuma günleri pazar kurulur ve o gün akşama 
+                         kadar çeşitli şenlikler yapılır. Pazarda yüzyıllardan beri sürdürülen ve geleneksel bir el sanatı olan kaşık ustalarının 
+                         ellerinden çıkmış, şimşir ve kayın ağaçlarından yapılmış kaşıklardan ve çeyiz sandığından, telefonluğa, resim çerçevesinden, 
+                         tepsiye, rahleden, ekmek sepetine kadar birçok başka ürün bulmak mümkündür. Karagöl yaylasına son yıllarda yamaç paraşütü,
+                          canyoning, yürüyüş ve kamp meraklıları da rağbet etmektedir Yüksekliği yaklaşık 1100 m. olan yayla, doğal çim pisti ve aynı anda 
+                          10 paraşüt serilebilir kapasitesi ile yamaç paraşütü için idealdir. 2009 Yılında Karagöl Mahtumlar Yaylasında yapılan suni 
+                          Karagöl gölü de yerli ve yabancı turistlerin ilgisini çekmektedir. Karagöl yaylasındaki göl piknik yapmak ve kamp kurmak 
+                          isteyenler için idealdir.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div id="sapanca" class="row">
+            <!-- Fotoğraf -->
+            <div class="col-md-10">
+                <img src="sapanca2.jpg" alt="Sapanca" style="width: 200px; height: 200px; float: left; margin-right: 15px;">
+                <div>
+                    <h2 style="font-weight: bold;"><a href="https://tr.wikipedia.org/wiki/Sapanca">Sapanca</a></h2>
+                    <p>
+                        
+                        Marmara Bölgesi`nin doğu kesiminde, Adapazarı Ovasını İzmit Körfezi oluğuna birleştiren uzun bir çukurun doğu yarısında 
+                        yer alan tatlı su gölüdür.</p>
+
+                        <P>Sapanca`nın kıyıları, doğuda Sakarya ili, batı ucunda Kocaeli İlinde kalır. Havzası 252 km2`dir. Yüzölçümü 47 km2`dir. 
+                            Doğu-batı uzunluğu 17 km`dir. Kuzey-güney genişliği 5 km olup yüzeyin denizden yüksekliği 31 m`dir. En derin yeri 61 
+                            m`dir. Gölün suyu kış ve ilk bahar aylarında yükselir, sonbahara doğru alçalır.</p>
+
+                        <p>Göl, adını güney kıyısında kurulmuş olan ilçeden alır. Eski Türk kaynaklarında Ayan Gölü olarak geçer. 
+                            Özellikle güneyindeki dağlardan inen sellerle iyi beslenen göl, fazla suyunu, doğu ucundan Çark suyu aracılığı ile 
+                            Sakarya ırmağına boşaltır. Gölü besleyen dereler, Karaçay, Kuruçay, Kurtköy, Mahmudiye, İstanbul, Karadere ve 
+                            Kaymakçı Dereleridir. Kuzeyinde ve güneyinde uzanan dağ eteklerinde keklik, çulluk ve tavşan yaşamaktadır. Gölde her 
+                            çeşit tatlı su balığı avcılığı yapılmaktadır.</p>
+
+                        <p>Sapanca`yı Evliya Çelebi şöyle anlatır.: "Sapanca Gölünün çevresi 24 mil`dir. 
+                            Dört çevresinde kasaba gibi yetmiş altı köy vardır. Cümle halkı bu haliçin suyundan 
+                            içtiklerinden yüzlerinin rengi kırmızıdır. Ürünleri çok ise de, bağları yoktur. Bahçeleri hadden aşkındır. 
+                            Bu gölün kenarında bir tür kavun ve karpuz olur ki, ancak ikisini bir eşek çekebilir. Bu göl içinde 
+                            seksen pare (parça) kayık ve çırnaklar (tahıl kayığı) vardır ki, köyden adam, kereste ve eşya götürürler.
+                             Bu gölde bulunan yetmiş, seksen çeşit balıktan avlanıp kar ederler. Alabalığı, sazan balığı, turna balığı 
+                             gibi tatlı su balıkları gayet lezzetli olur. Gölün derinliği ekseri yerlerinde yirmi kulaçtır. Suyu gayet 
+                             saf ve berraktır. Kıyısında olan köylerin kadınları elbise yıkadıklarında asla sabun sürmezler".</p>
+                        <p>E-5 Karayolu gölün kuzey kıyısını, TEM Otoyolu ve demiryolu ise güney kısmından geçmektedir. Sakarya'da 
+                            tektonik oluşumlar sonucu meydana gelen Sapanca Gölü ve çevresi içerdiği son derece çarpıcı doğal 
+                            güzellikleri ve yoğun yerleşim merkezlerinin ulaşabildiği bir konumda bulunması nedeniyle il merkezinin 
+                            yanı sıra başta İstanbul olmak üzere çevredeki büyük kentlerin özellikler hafta sonları rekreasyon ve 
+                            konaklama amaçlı taleplerine açık bir merkez niteliğindedir. Sapanca Gölü`nün yüksekliklerindeki Arifiye 
+                            Ormanı`nda güzel kamping ve piknik alanları bulunmaktadır.</p>
+                        <p>Ulusal ve uluslararası sörf, yelken ve kürek müsabakalarının yapıldığı Sapanca Gölü bu organizasyonlarla 
+                            sportif amaçlı çok sayıda ziyaretçi çekmektedir.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div id="beskopru" class="row">
+            <!-- Fotoğraf -->
+            <div class="col-md-10">
+                <img src="justinianus.jpg" alt="Beşköprü" style="width: 200px; height: 200px; float: left; margin-right: 15px;">
+                <div>
+                    <h2 style="font-weight: bold;"><a href="https://tr.wikipedia.org/wiki/Justinianus_K%C3%B6pr%C3%BCs%C3%BC">Justinianus Köprüsü</a></h2>
+                    <p>  Sapanca Gölü’nün sularını Sakarya Nehri’ne boşaltan Çark Deresi (Melas Çayı) üzerinde yer alan Justinianus 
+                        Köprüsü, Erken Bizans Dönemi’nin Anadolu’daki en görkemli anıtsal yapılarındandır.</p>
+
+                        <P>Bizans İmparatoru Justinianus (527-565) tarafından MS 558-560 yıllarında yaptırılan bu taş köprü, 
+                            365 metre uzunluğunda, 9,85 metre genişliğinde olup toplam 12 kemerlidir. Köprünün batı ucunda tak izi, 
+                            doğu ucunda apsisli yapı ve köprü ile ilgili tonozlu yapı kalıntıları bulunmaktadır.</p>
+
+                        <p>Önceleri Latince “pons” (köprü) denen köprünün kendine özgü başka bir adı yoktu. Sonradan, 
+                            “pons”un Latincede “köprü” demek olduğunu bilmeyen Rumlaşmış halk, bu sözcüğü bir özel ad olarak 
+                            algılayıp köprüyü, “Pons Köprüsü” anlamında Pontogephyra diye anmaya başlamıştır. Daha sonraları, 
+                            bu ad Pentegephyra’ya (Beş Köprü) dönüşmüşse de köprü şu veya bu biçimde beş parçalı olmadığı gibi, 
+                            beş kemerli de değildir.</p>
+
+                        <p>Justinianus Köprüsü tamamen kireçtaşı kullanılarak yapılmış olup, sahip olduğu kemerler sayesinde oldukça 
+                            ihtişamlı görünmektedir. Köprünün batı tarafında bulunan kemerlerden birinin altından Çark Deresi aksa da 
+                            önceleri köprüden Sakarya Nehri'nin aktığı düşünülmektedir.</p>    
+
+                        <p>Yaklaşık 1500 yıldır ayakta duran Justinianus Köprüsü, Bizans döneminden beri pek çok deprem karşısında 
+                            yıkılmadan kalmıştır. Bu özelliğiyle zamana direnen köprü olarak anılmaya başlanmıştır. Köprü, Osmanlı 
+                            Dönemi'ndeki ticaret yollarından uzakta konumlandığı için keşfedilmesi uzun sürmüştür. Bu nedenle köprünün 
+                            seyyahların ve dervişlerin dikkatini çekmesi de vakit almıştır. </p>
+
+                        <p>
+                            Ayasofya ile yaşıt olan köprü hakkında daha fazla bilgi edinmek için kazı çalışmaları devam etmektedir. 
+                            Justinianus Köprüsü 2018 yılında UNESCO Dünya Miras Geçici Listesi'ne alınmıştır.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    
+    <!-- Bootstrap JS ve jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
