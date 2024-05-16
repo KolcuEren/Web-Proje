@@ -1,0 +1,22 @@
+
+/* Özel stiller */
+.login-link,
+.signup-link {
+    color: #ffcc00; /* Butonların rengi */
+}
+.news-container {
+    max-height: 400px; /* Haber konteynerinin maksimum yüksekliği */
+    overflow-y: auto; /* Dikey kaydırma çubuğunu etkinleştir */
+}
+.news-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.hero-image {
+    background-image: url('your_image_url_here');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Görselin yüksekliği */
+    margin-bottom: 20px;
+}

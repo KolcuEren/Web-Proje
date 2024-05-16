@@ -1,0 +1,34 @@
+
+        /* Özel stiller */
+        .login-link,
+        .signup-link {
+            color: #ffcc00; /* Butonların rengi */
+        }
+        .profile img {
+        max-width: 100%;
+        height: auto;
+        }
+        p a  {
+            text-decoration: underline;
+            color: #000000;
+        
+        
+        }
+        p a  :hover{
+            color : blue;
+            text-decoration: none;
+        }
+        .sporlar {
+             display: flex; /* Flex container */
+             flex-wrap: wrap; /* Eğer sığmazsa alt satıra geç */
+        }
+
+        .sporlar a {
+             flex: 1 0 150px; /* Öğelerin esneklik özellikleri: büyüme (1), büyüme dışı boyut (0), başlangıç boyutu (150px) */
+              margin: 5px; /* Fotoğraflar arasında boşluk bırak */
+        }
+
+        .sporlar a img {
+             width: 100%; /* Fotoğrafların genişliğini %100 yap */
+             height: 200px; /* Orantılı olarak yükseklik ayarla */
+        }
