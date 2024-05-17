@@ -1,0 +1,15 @@
+
+        /* Özel stiller */
+        .login-link,
+        .signup-link {
+            color: #ffcc00; /* Butonların rengi */
+        }
+        .carousel-item img {
+            margin: auto;
+        }
+        h2 a{
+            color: black;
+        }
+        h1 a{
+            color: black;
+        }
